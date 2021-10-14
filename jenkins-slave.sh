@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "hello world"
+
 # if `docker run` first argument start with `-` the user is passing jenkins swarm launcher arguments
 if [[ $# -lt 1 ]] || [[ "$1" == "-"* ]]; then
 
